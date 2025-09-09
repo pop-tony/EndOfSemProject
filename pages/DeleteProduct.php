@@ -64,7 +64,7 @@
                         <td>$row[product_type]</td>
                         <td>$row[price]</td>
                         <td>$row[pdescription]</td>
-                        <td><img src='../images/<?php echo $row[product_image]; ?>' alt='Product Image'></td>
+                        <td><img src='../images/$row[product_image]' alt='Product Image'></td>
                         <td>$row[created_at]</td>
                         <td>$row[updated_at]</td>
                         <td>$row[expire_at]</td>

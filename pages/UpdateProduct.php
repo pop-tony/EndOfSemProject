@@ -38,6 +38,7 @@
 
             if(mysqli_num_rows($query_run) > 0){
                 $info = $query_run->fetch_assoc();
+                $product_id = $info["product_id"];
             }
             else{
                 $how_far_message = "No record found";
@@ -47,7 +48,6 @@
             $how_far_message = "Could not get data";
         }
 
-        $product_id = $info["product_id"];
 
     }
 
