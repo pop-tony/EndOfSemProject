@@ -1,20 +1,6 @@
 const texts = document.getElementsByClassName("texts");
 const dropdown = document.getElementsByClassName("dropdown");
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 const slides = document.querySelectorAll(".slide");
 let slideIndex = 0;
 let intervalId = null;
